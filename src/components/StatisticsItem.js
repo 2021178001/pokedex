@@ -1,14 +1,13 @@
 import React from 'react'
 
-function StatisticsItem({name, data, measurement}) {
+function StatisticsItem({name, data}) {
 
     
     return (
         <div className="flex column statistics-item">
-            <p>attack</p>
-            <p>45</p>
-            <p>points</p>
-            <img src="" alt="icon" />
+            <p>{name}</p>
+            <p>{data}</p>
+            <p>base</p>
       </div>
     )
 }

@@ -6,8 +6,8 @@ function Abillities({abilities}) {
         <section className="flex column abillities">
             <h1>Main skills</h1>
             <div>
-              <p>First</p>
-              <p>Second</p>
+                <p>{abilities[0].ability.name}</p>
+                <p>{abilities[1].ability.name}</p>
             </div>
         </section>
     )
